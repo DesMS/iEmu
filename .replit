@@ -1,8 +1,13 @@
 run = "node index.js"
+entrypoint = "index.js"
 language = "nodejs-npm"
 
-[nodejs-npm]
+[packager]
+language = "nodejs-npm"
 
+[packager.features]
+packageSearch = true
+guessImports = true
 
 [nix]
 channel = "stable-21_11"
