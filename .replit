@@ -1,0 +1,8 @@
+run = "node index.js"
+language = "nodejs-npm"
+
+[nodejs-npm]
+
+
+[nix]
+channel = "stable-21_11"
